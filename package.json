@@ -1,0 +1,24 @@
+{
+  "name": "homework-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start ": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alinashveida/node-homework-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alinashveida/node-homework-1/issues"
+  },
+  "homepage": "https://github.com/alinashveida/node-homework-1#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
