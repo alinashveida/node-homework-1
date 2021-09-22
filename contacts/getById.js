@@ -1,4 +1,3 @@
-//const contacts = require('../db/contacts.json')
 const listContacts = require('./listContacts')
 
 const getById = async (contactId) => {

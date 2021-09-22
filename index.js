@@ -17,13 +17,11 @@ const contactsOperation = require('./contacts')
 async function invokeAction({ action, id, name, email, phone }) {
   switch (action) {
     case 'list':
-      //return contactsOperation.listContacts()
       const contacts = await contactsOperation.listContacts()
       console.table(contacts)
       break
 
     case 'get':
-      //   return await contactsOperation.getById(id)
       const contactById = await contactsOperation.getById(id)
       console.log(contactById)
       break
