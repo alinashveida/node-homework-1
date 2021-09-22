@@ -20,5 +20,9 @@
   "homepage": "https://github.com/alinashveida/node-homework-1#readme",
   "devDependencies": {
     "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "commander": "^8.2.0",
+    "uuid": "^8.3.2"
   }
 }
